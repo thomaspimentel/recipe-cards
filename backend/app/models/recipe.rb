@@ -6,13 +6,11 @@ class Recipe
     # - name
     # - description
     # - image
-    # - is_visible
-
-    # relationships
-    # - ingredients -> has_many
-    # - directions -> has_many
-    # - reviews -> has_many
-    # - tags -> has_many
+    # - ingredients -> ref
+    # - directions -> ref
+    # - ratings -> ref
+    # - comments -> ref
+    # - tags -> ref
 
     field :name, type: String
     field :image, type: String
