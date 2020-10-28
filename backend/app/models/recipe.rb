@@ -10,7 +10,7 @@ class Recipe
 
     # relationships
     # //- ingredients -> has_many
-    # - directions -> has_many
+    # //  directions -> has_many
     # - images -> has_many
     # - reviews -> has_many
     # - tags -> has_many
