@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Extended GraphQL Schema
 class AppSchema < GraphQL::Schema
   mutation(Types::MutationType)
   query(Types::QueryType)

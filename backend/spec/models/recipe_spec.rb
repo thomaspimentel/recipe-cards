@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 RSpec.describe Recipe, type: :model do
   it 'is valid' do
-    expect(build :recipe).to be_valid
+    expect(build(:recipe)).to be_valid
   end
 
   it 'is invalid with name not present' do
