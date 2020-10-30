@@ -1,0 +1,13 @@
+Metrics/MethodLength:
+  Exclude:
+    - app/controllers/graphql_controller.rb
+
+Naming/MethodParameterName:
+  Exclude:
+    - app/controllers/graphql_controller.rb
+
+Style/Documentation:
+  Exclude:
+    - app/graphql/*/*.rb
+    - app/mailers/application_mailer.rb
+    - config/application.rb
